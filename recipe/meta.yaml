@@ -1,5 +1,5 @@
 {% set name = "dictdatabase" %}
-{% set version = "2.4.2" %}
+{% set version = "2.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dictdatabase-{{ version }}.tar.gz
-  sha256: a1daefa96149792c79ccc94bc5b96115544ec5547e811e79e934f9245a12ab77
+  sha256: 6373d35b1b688b37e988061c78696cba17b9cf6be7f5a2d05f289522f57c5dca
 
 build:
   noarch: python
